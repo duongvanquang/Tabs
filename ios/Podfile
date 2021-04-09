@@ -14,6 +14,8 @@ target 'AppDM' do
 
   pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
 
+  pod 'react-native-camera', :path => '../node_modules/react-native-camera'
+
   target 'AppDMTests' do
     inherit! :complete
     # Pods for testing

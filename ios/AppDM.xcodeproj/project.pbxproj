@@ -160,7 +160,6 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				AB5DBB803E9B9006D6D74845 /* [CP] Embed Pods Frameworks */,
 				77B436907FB1980E7987D797 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -183,7 +182,6 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				789C4A950066E2C83E1716D1 /* [CP] Embed Pods Frameworks */,
 				860D34E555594650925D47E8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -304,23 +302,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppDM-AppDMTests/Pods-AppDM-AppDMTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		789C4A950066E2C83E1716D1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppDM/Pods-AppDM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppDM/Pods-AppDM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppDM/Pods-AppDM-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		860D34E555594650925D47E8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -336,23 +317,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppDM/Pods-AppDM-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AB5DBB803E9B9006D6D74845 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppDM-AppDMTests/Pods-AppDM-AppDMTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppDM-AppDMTests/Pods-AppDM-AppDMTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppDM-AppDMTests/Pods-AppDM-AppDMTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CDF5FA3F55BFE764F5200DE3 /* [CP] Check Pods Manifest.lock */ = {
